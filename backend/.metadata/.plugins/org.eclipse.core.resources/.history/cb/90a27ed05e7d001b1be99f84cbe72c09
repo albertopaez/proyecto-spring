@@ -1,0 +1,9 @@
+package security.entity;
+
+public class Usuario {
+	private int id;
+	private String email;
+	private String password;
+	private set<Rol> roles = new HashSet<>();
+
+}

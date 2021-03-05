@@ -1,0 +1,12 @@
+package security.dto;
+
+import javax.validation.constraints.NotBlank;
+
+public class LoginUsuario {
+	
+	@NotBlank
+	private String userName;
+	@NotBlank
+	private String password;
+
+}

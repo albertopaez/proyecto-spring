@@ -1,0 +1,13 @@
+package security.dto;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class NuevoUsuario {
+	
+	private String userName;
+	private String password;
+	
+	private Set<String> roles = new HashSet<>();
+
+}

@@ -1,0 +1,7 @@
+package security.dto;
+
+public class NuevoUsuario {
+	
+	private String userName;
+
+}
